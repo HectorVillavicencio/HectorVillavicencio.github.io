@@ -1,0 +1,46 @@
+/*estilos generales*/
+
+h1{
+
+    border: 1px solid black;
+    text-align: center;
+    background-color:#1C6EA4;
+    margin: 0px;
+    padding:5px;
+}
+
+
+
+/*estilos propios*/
+
+/*estilos para fuentes*/
+.letra{
+    font-weight: bold;
+    font-size: 150px;
+    color: blackblue;
+   
+}
+
+/*estilos imagenes*/
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
+    background: scroll 50% 0%;
+}
+
+/*estilos organizacion caja*/
+
+.product__details{
+    border: 1px solid red;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    color: black;
+}
+
+
