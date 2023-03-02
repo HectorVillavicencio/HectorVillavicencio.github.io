@@ -2,11 +2,11 @@
 
 h1{
 
-    border: 1px solid black;
+    border: 5px solid grey;
     text-align: center;
     background-color:#1C6EA4;
     margin: 0px;
-    padding:5px;
+    padding:50px;
 }
 
 
@@ -34,9 +34,9 @@ h1{
 /*estilos organizacion caja*/
 
 .product__details{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
-    margin-top: 0px;
+    margin-top: -50px;
     align-items: center;
     justify-content:center;
     align-items: center;
