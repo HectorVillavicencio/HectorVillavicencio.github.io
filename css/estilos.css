@@ -13,13 +13,16 @@ h1{
 
 /*estilos propios*/
 
-/*estilos para fuentes*/
+
+/* estilo para texto*/
+/*estilos para titulo*/
 .letra{
     font-weight: bold;
     font-size: 150px;
     color: blackblue;
-   
 }
+
+
 
 /*estilos imagenes*/
 
@@ -31,7 +34,11 @@ h1{
     background: scroll 50% 0%;
 }
 
-/*estilos organizacion caja*/
+
+
+
+
+/*estilos organizacion contenedores*/
 
 .product__details{
     /*border: 1px solid red;*/
@@ -43,15 +50,36 @@ h1{
     color: black;
 }
 
-.section{
+.contenedoriconoYTexto{
     border: 1px solid red;
     display: flex;
     margin-top: 0px;
-    align-items: center;
-    justify-content:center;
-    align-items: center;
-    color: black;
-    padding-right: 200px;
+    align-items:normal;
+    align-items:center;    
 }
 
+.contenedoriconosYTextos{
+    border: 1px solid red;
+    margin-top: 0px;
+    color: black;
+    background-color:#1C6EA4;
+    width: 300px;
+    height: 500px;
+}
 
+.contenedorGeneral{
+    border: 1px solid grey;
+    background-color:#1C6EA4;
+    margin-top: 15px;
+    height: 700px;
+    display: flex;
+
+}
+
+.contenedorInformacion{
+    border: 5px solid grey;
+    background-color:white;
+    height: auto;
+    width: 1900px;
+
+}
