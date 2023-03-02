@@ -47,6 +47,14 @@ div i{
     margin-right: 5px;
 }
 
+/* estilo icono footer*/
+
+footer i{
+    font-size: 200px;
+    color: gray;
+    margin: 50px;
+}
+
 /* estilos video*/
 
 .video{
@@ -101,7 +109,7 @@ div i{
 
 }
 
-.contenedorVideo{
+.contenedorCentra{
     text-align: center;
     align-items:center; 
 }
