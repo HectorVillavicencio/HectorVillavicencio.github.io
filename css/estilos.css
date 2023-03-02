@@ -17,9 +17,15 @@ h1{
 /* estilo para texto*/
 /*estilos para titulo*/
 .letra{
-    font-weight: bold;
     font-size: 150px;
     color: blackblue;
+}
+
+/*estilo texto datos*/
+.datos{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
 }
 
 
@@ -34,8 +40,19 @@ h1{
     background: scroll 50% 0%;
 }
 
+/* estilos icono*/
+div i{
+    font-size: 20px;
+    color: gray;
+    margin-right: 5px;
+}
 
+/* estilos video*/
 
+.video{
+    width:850px; 
+    height:480px;
+}
 
 
 /*estilos organizacion contenedores*/
@@ -82,4 +99,9 @@ h1{
     height: auto;
     width: 1900px;
 
+}
+
+.contenedorVideo{
+    text-align: center;
+    align-items:center; 
 }
