@@ -1,3 +1,18 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 720px){
+    h1{
+        width: 5%;
+    }
+
+}
+
+
+
 /*estilos generales*/
 
 h1{
@@ -7,6 +22,9 @@ h1{
     background-color:#1C6EA4;
     margin: 0px;
     padding:50px;
+    width: 100%;
+    float: left;
+
 }
 
 
@@ -92,6 +110,8 @@ footer i{
     justify-content:center;
     align-items: center;
     color: black;
+    width: 100%;
+    float: left;
 }
 
 .contenedoriconoYTexto{
@@ -100,7 +120,8 @@ footer i{
     margin-top: 0px;
     align-items:normal;
     align-items:center;  
-    border-bottom: 2px solid white;  
+    border-bottom: 2px solid white; 
+    
 }
 
 .contenedoriconosYTextos{
@@ -108,28 +129,25 @@ footer i{
     margin-top: 0px;
     color: black;
     background-color:#1C6EA4;
-    width: 300px;
+    width: 16.33%;
     height: 500px;
+    float: left ;    
 }
 
-.contenedorGeneral{
-   /* border: 1px solid grey;*/
-    background-color:#1C6EA4;
-    margin-top: 15px;
-    height: 700px;
-    display: flex;
 
-}
 
 .contenedorInformacion{
   /*  border: 5px solid grey;*/
     background-color:white;
     height: auto;
-    width: 1900px;
+    width: 83.33%;
+    float: right ;
 
 }
 
 .contenedorCentra{
     text-align: center;
     align-items:center; 
+    width: 100%;
+    float: left ;
 }
