@@ -7,7 +7,7 @@
 /*estilos generales*/
 
 h1{
-
+    font-family: 'Roboto', sans-serif;
     border: 10px solid grey;
     text-align: center;
     background-color:#1C6EA4;
@@ -38,6 +38,7 @@ h1{
 
 /*estilo texto subtitulo*/
 .subtitulo{
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: bold;
     text-decoration-line: underline;
@@ -46,6 +47,7 @@ h1{
 }
 
 .sub{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-decoration-line: underline;
@@ -109,14 +111,15 @@ footer i{
     display: flex;
     margin-top: 0px;
     align-items:normal;
-    align-items:center;  
+    align-items:center; 
+    margin-top: 5px; 
     border-bottom: 2px solid white; 
     
 }
 
 .contenedoriconosYTextos{
    /* border: 1px solid red;*/
-    margin-top: 0px;
+    margin-top: 5px;
     color: black;
     background-color:#1C6EA4;
     width: 16.33%;
