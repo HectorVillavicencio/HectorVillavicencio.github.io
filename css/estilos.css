@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 720px){
-    h1{
-        width: 5%;
-    }
-
-}
-
-
-
 /*estilos generales*/
 
 h1{
@@ -150,4 +141,17 @@ footer i{
     align-items:center; 
     width: 100%;
     float: left ;
+}
+
+@media (max-width:720px){
+    .contenedorInformacion{
+        width: 100%;
+    }
+    .contenedoriconosYTextos{
+        /*background-color: #000000;*/
+        width: 100%;
+        height: auto;
+    }
+
+
 }
