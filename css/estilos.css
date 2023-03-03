@@ -63,7 +63,7 @@ h1{
 div i{
     font-size: 20px;
     color: gray;
-    margin-right: 5px;
+    margin: 7px;
 }
 
 /* estilo icono footer*/
@@ -99,7 +99,8 @@ footer i{
     display: flex;
     margin-top: 0px;
     align-items:normal;
-    align-items:center;    
+    align-items:center;  
+    border-bottom: 2px solid white;  
 }
 
 .contenedoriconosYTextos{
