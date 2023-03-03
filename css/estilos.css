@@ -19,7 +19,6 @@ h1{
 }
 
 
-
 /*estilos propios*/
 
 
@@ -68,7 +67,7 @@ h1{
     background: scroll 50% 0%;
 }
 
-/* estilos icono*/
+/* estilos iconos*/
 div i{
     font-size: 20px;
     color: gray;
@@ -159,6 +158,12 @@ footer i{
     .video{
         width:auto; 
         height:auto;
+    }
+
+    footer i{
+        font-size: 85px;
+        color: gray;
+        margin: 5px;
     }
 
 
